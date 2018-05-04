@@ -17,7 +17,18 @@ var showCSS=false;
 var addMoreButton= document.createElement("input");
 var namingMethod = 0;
 var namingMethods = ["Random name","Random Ending","Choose Name"];
-var namesExample= ["Ben Dover","Eileen Dover","Not in ur class","Stephanie","Sportacus","Robbie Rotten","Ziggy","L0kesh;)","RealPerson.mp4","ur search history","Cael Cooper:)","Kim-Jong Uno","Sernie Banders","lorcan't","Not A Bot","setup.exe","admin1"];
+var namesExample= [
+    "hi daddy", "ur search history", "Random_Jew", "Ice_Wallow_Come", "Adolf_Hipster", "noggers are bad",
+    "Ben Dover", "Eileen Dover", "Sportacus", "Robbie Rotten", "Kim-Jong Uno", "Sernie Banders", "Brooke",
+    "Haus Brooke", "Stoner_Army", "Aphrodite", "W33d Godess", "Garuger", "Gesely", "Nayq", "Trotsky", "Lenin", 
+    "Stalin", "Featherz", "Kat", "Joseph Goebells", "Fascist Deli", "PAPA SNAKU", "Beaner", "Brit Jew", "Rotten_Sausage",
+    "Ryki", "Svenar", "a disappointment", "Allarus", "Baguette Stalin", "Communist_Penguin", "Kamibel", "Serena", 
+    "Random_Celery", "Some_Object", "Stiffy_Knight", "Thotslayer9000", "Jewslayer59", "W A N K E R", "Bush did 9/11",
+    "Loli_Hunter", "Asthma.exe", "*Autistic Screech*", "100% Fascism", "2 inch punisher", "4NDR1", "Ice_Wallow_Come", 
+    "Ching_Chong.exe", "Adderall.exe", "Aether", "Aiden", "Akane", "Killer_Memestar", "Allah Snackbar"
+    
+     
+];
    // var i;
     //i = 1;
 
