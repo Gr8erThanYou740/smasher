@@ -25,7 +25,10 @@ var namesExample= [
     "Ryki", "Svenar", "a disappointment", "Allarus", "Baguette Stalin", "Communist_Penguin", "Kamibel", "Serena", 
     "Random_Celery", "Some_Object", "Stiffy_Knight", "Thotslayer9000", "Jewslayer59", "W A N K E R", "Bush did 9/11",
     "Loli_Hunter", "Asthma.exe", "*Autistic Screech*", "100% Fascism", "2 inch punisher", "4NDR1", "Ice_Wallow_Come", 
-    "Ching_Chong.exe", "Adderall.exe", "Aether", "Aiden", "Akane", "Killer_Memestar", "Allah Snackbar"
+    "Ching_Chong.exe", "Adderall.exe", "Aether", "Aiden", "Akane", "Killer_Memestar", "Allah Snackbar", "Suq Madiq",
+    "BAN ALL FURRIES", "TheJewSpanker9000", "Despacito", "Lolek", "Kubmeister", "Terminal_Vagabond", "XXXTentacion", 
+    "xX_suicidal_Xx", "Drunk_Scalie", "A U T I S M", "Actual_Dirt", "Tom", "George", "#George4Mod", "Thotimus_Prime", 
+    "BBC", "Blunt_Blower_69", "Bob Ross", "Brok3n", ""
     
      
 ];
