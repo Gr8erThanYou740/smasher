@@ -29,7 +29,9 @@ var namesExample= [
     "BAN ALL FURRIES", "TheJewSpanker9000", "Despacito", "Lolek", "Kubmeister", "Terminal_Vagabond", "XXXTentacion", 
     "xX_suicidal_Xx", "Drunk_Scalie", "A U T I S M", "Actual_Dirt", "Tom", "George", "#George4Mod", "Thotimus_Prime", 
     "BBC", "Blunt_Blower_69", "Bob Ross", "Brok3n", "El Conke", "Bepsis", "I_Gassed_Juice", "Build_The_Wall", 
-    "Meincraft", "Elongated Muskrat", "Elon Musk", "", "", "", "", "", "", "", "", "", ""
+    "Meincraft", "Elongated Muskrat", "Elon Musk", "Catto", "Doggo", "Pupper", "Communist Pubes", "Cupcakes4Jesus", 
+    "Covfefe", "Pickle_Rick", "Bita Negar", "Poon_Sniffer", "Sphincter_Troll", "Splooge_Master", "Wank_Receptacle",
+    "Jim_Crow", "Bong Huffer", "", "", "", "", "", "", "", "", ""
     
      
 ];
