@@ -20,7 +20,7 @@ var namingMethods = ["Random name","Random Ending","Choose Name"];
 var namesExample= [
     "hi daddy", "ur search history", "Random_Jew", "Ice_Wallow_Come", "Adolf_Hipster", "noggers are bad",
     "Ben Dover", "Eileen Dover", "Sportacus", "Robbie Rotten", "Kim-Jong Uno", "Sernie Banders", "Brooke",
-    "Haus Brooke", "Stoner_Army", "Aphrodite", "W33d Godess", "Garuger", "Gesely", "Nayq", "Trotsky", "Lenin", 
+    "Haus Brooke", "Stoner_Army", "Aphrodite", "W33d Goddess", "Garuger", "Gesely", "Nayq", "Trotsky", "Lenin", 
     "Stalin", "Featherz", "Kat", "Joseph Goebells", "Fascist Deli", "PAPA SNAKU", "Beaner", "Brit Jew", "Rotten_Sausage",
     "Ryki", "Svenar", "a disappointment", "Allarus", "Baguette Stalin", "Communist_Penguin", "Kamibel", "Serena", 
     "Random_Celery", "Some_Object", "Stiffy_Knight", "Thotslayer9000", "Jewslayer59", "W A N K E R", "Bush did 9/11",
@@ -31,9 +31,11 @@ var namesExample= [
     "BBC", "Blunt_Blower_69", "Bob Ross", "Brok3n", "El Conke", "Bepsis", "I_Gassed_Juice", "Build_The_Wall", 
     "Meincraft", "Elongated Muskrat", "Elon Musk", "Catto", "Doggo", "Pupper", "Communist Pubes", "Cupcakes4Jesus", 
     "Covfefe", "Pickle_Rick", "Bita Negar", "Poon_Sniffer", "Sphincter_Troll", "Splooge_Master", "Wank_Receptacle",
-    "Jim_Crow", "Bong Huffer", "", "", "", "", "", "", "", "", ""
-    
-     
+    "Jim_Crow", "Bong Huffer", "Asian_Child_Labor", "Dr. Anus", "Creep", "Eggplant", "ErectionPerfection", "George_The_Jew", 
+    "Heinrich Himmler", "Keona", "Linux4Lyfe", "Mordekai", "Nigglet", "Alcohol_Inhaler", "Spank_Bank", "Swiggster", 
+    "Reefer", "chrome big pp", "Melv", "Felch", "Rusty Tromboner", "Pole_Smoker", "H3mp Goddess", "Swamp Donkey",
+    "Republicunt", "Rumpranger", "Inbreeder", "Peter Porker", "Boong", "Gook_Monger", "Smalfuk", "Swive", "Punani",
+    "Snatch_Sniffer", "Random Tart", "Crickey Chav", "Boang_Woman", "Caramel_Commie", "Kinky_Waman", "Nymphomaniac"     
 ];
    // var i;
     //i = 1;
