@@ -18,24 +18,23 @@ var addMoreButton= document.createElement("input");
 var namingMethod = 0;
 var namingMethods = ["Random name","Random Ending","Choose Name"];
 var namesExample= [
-    "hi daddy", "ur search history", "Random_Jew", "Ice_Wallow_Come", "Adolf_Hipster", "noggers are bad",
-    "Ben Dover", "Eileen Dover", "Sportacus", "Robbie Rotten", "Kim-Jong Uno", "Sernie Banders", "Brooke",
-    "Haus Brooke", "Stoner_Army", "Aphrodite", "W33d Goddess", "Garuger", "Gesely", "Nayq", "Trotsky", "Lenin", 
-    "Stalin", "Featherz", "Kat", "Joseph Goebells", "Fascist Deli", "PAPA SNAKU", "Beaner", "Brit Jew", "Rotten_Sausage",
-    "Ryki", "Svenar", "a disappointment", "Allarus", "Baguette Stalin", "Communist_Penguin", "Kamibel", "Serena", 
-    "Random_Celery", "Some_Object", "Stiffy_Knight", "Thotslayer9000", "Jewslayer59", "W A N K E R", "Bush did 9/11",
-    "Loli_Hunter", "Asthma.exe", "*Autistic Screech*", "100% Fascism", "2 inch punisher", "4NDR1", "Ice_Wallow_Come", 
-    "Ching_Chong.exe", "Adderall.exe", "Aether", "Aiden", "Akane", "Killer_Memestar", "Allah Snackbar", "Suq Madiq",
+    "hi daddy", "ur search history", "IceWallowCome", "Adolf_Hipster", "noggers are bad","Ben Dover", "Eileen Dover", 
+    "Sportacus", "Robbie Rotten", "Kim-Jong Uno", "Sernie Banders", "Brooke", "Haus Brooke", "Stoner_Army", "Aphrodite", 
+    "W33d Goddess", "Garuger", "Gesely", "Nayq", "Trotsky", "Lenin", "Stalin", "Featherz", "Kat", "Joseph Goebells", 
+    "Fascist Deli", "PAPA SNAKU", "Beaner", "Brit Jew", "Rotten_Sausage", "Ryki", "Svenar", "a disappointment", "Allarus", 
+    "Baguette Stalin", "Communist Penguin", "Kamibel", "Serena", "Random Celery", "some object", "StiffyKnight", "Thotslayer9000", 
+    "Jewslayer59", "W A N K E R", "Bush did 9/11", "Loli_Hunter", "Asthma.exe", "*Autistic Screech*", "100% Fascism", "2 inch punisher", 
+    "ChingChong.exe", "Adderall.exe", "Aether", "Aiden", "Akane", "Killer Memestar", "Allah Snackbar", "Suq Madiq",
     "BAN ALL FURRIES", "TheJewSpanker9000", "Despacito", "Lolek", "Kubmeister", "Terminal_Vagabond", "XXXTentacion", 
-    "xX_suicidal_Xx", "Drunk_Scalie", "A U T I S M", "Actual_Dirt", "Tom", "George", "#George4Mod", "Thotimus_Prime", 
-    "BBC", "Blunt_Blower_69", "Bob Ross", "Brok3n", "El Conke", "Bepsis", "I_Gassed_Juice", "Build_The_Wall", 
+    "XXXTerminated", "xX_suicidal_Xx", "Drunk_Scalie", "A U T I S M", "actual dirt", "Tom", "George", "#George4Mod", 
+    "Thotimus Prime", "BBC", "Bluntblower69", "Bob Ross", "Brok3n", "El Conke", "Bepsis", "IGassedJuice", "Build The Wall", 
     "Meincraft", "Elongated Muskrat", "Elon Musk", "Catto", "Doggo", "Pupper", "Communist Pubes", "Cupcakes4Jesus", 
-    "Covfefe", "Pickle_Rick", "Bita Negar", "Poon_Sniffer", "Sphincter_Troll", "Splooge_Master", "Wank_Receptacle",
-    "Jim_Crow", "Bong Huffer", "Asian_Child_Labor", "Dr. Anus", "Creep", "Eggplant", "ErectionPerfection", "George_The_Jew", 
-    "Heinrich Himmler", "Keona", "Linux4Lyfe", "Mordekai", "Nigglet", "Alcohol_Inhaler", "Spank_Bank", "Swiggster", 
-    "Reefer", "chrome big pp", "Melv", "Felch", "Rusty Tromboner", "Pole_Smoker", "H3mp Goddess", "Swamp Donkey",
-    "Republicunt", "Rumpranger", "Inbreeder", "Peter Porker", "Boong", "Gook_Monger", "Smalfuk", "Swive", "Punani",
-    "Snatch_Sniffer", "Random Tart", "Crickey Chav", "Boang_Woman", "Caramel_Commie", "Kinky_Waman", "Nymphomaniac"     
+    "Covfefe", "Pickle Rick", "Bita Negar", "Poonsniffer", "Sphincter Troll", "Splooge Master", "Wank Receptacle",
+    "Jim Crow", "Bong Huffer", "Asian_Child_Labor", "Dr. Anus", "Creep", "Eggplant", "ErectionPerfection", "GeorgeTheJew", 
+    "Heinrich Himmler", "Keona", "Linux4Lyfe", "Mordekai", "Nigglet", "Alcohol Inhaler", "SpankBank", "Swiggster", 
+    "Reefer", "chrome big pp", "Melv", "Felch", "Rusty Tromboner", "Pole Smoker", "H3mp Goddess", "Swamp Donkey",
+    "Republicunt", "Rumpranger", "Inbreeder", "Peter Porker", "Boong", "Gook Monger", "Smalfuk", "Swive", "Punani",
+    "Snatch Sniffer", "Random Tart", "Crickey Chav", "Boang Woman", "Caramel Commie", "Kinky_Waman", "Nymphomaniac"     
 ];
    // var i;
     //i = 1;
