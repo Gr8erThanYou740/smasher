@@ -20,7 +20,8 @@ var namingMethods = ["Random name","Random Ending","Choose Name"];
 var namesExample= [
     "Mohxy", "Vxire", "Gahmuret", "Tara", "Tomi", "Argor", "Kelretu", "Polyzynn", "Tekrala", "Kesta", "Suelle",
     "cuntlad", "BuyMyAids", "Wilihey", "Milkshook", "Kanker Luke", "SUCK YOUR MUM", "Acer", "ChRoMoSoMe CoLlEcToR",
-    "Deep-fried Daddy", "Deli Tuna", "Jordane"
+    "Deep-fried Daddy", "Deli Tuna", "Jordane", "W33d Goddess", "H3mp Goddess", "Ben Dover", "Eileen Dover", 
+    "Suq Madiq", "Bita Negar", "Adolf_Hipster", "Fascist Deli"
 ];
    // var i;
     //i = 1;
