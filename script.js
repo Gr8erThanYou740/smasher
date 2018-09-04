@@ -23,7 +23,14 @@ var namesExample= [
     "Deep-fried Daddy", "Deli Tuna", "Jordane", "W33d Goddess", "H3mp Goddess", "Ben Dover", "Eileen Dover", 
     "Suq Madiq", "Bita Negar", "Adolf_Hipster", "Fascist Deli", "Rusty Tromboner", "ur search history", "actual dirt",
     "Adolphin", "Tana", "noggers are bad", "IceWallowCome", "Akane", "Kareina", "IGassedJuice", "xDEFCONx", "Drazzle",
-    "cuckling", "Dirty Dan"
+    "cuckling", "Dirty Dan", "Kat", "Ken", "SassySelty", "Ria", "Yoru", "Korodo", "Meatbeater6000", "noihu", "Ryki",
+    "Memes.DLL", "Unspeakable Yeet", "*unoriginal nickname*", "a disappointment", "AUSHWITZ JUDEN '47", "bean swallow",
+    "Belgian Fries", "Brandy", "Cumstain Catharsis", "defective toe man", "Eikster", "FleetOfYeet", "Galactic Retard",
+    "Gudendrunk", "iwanttodie", "Kamibel", "Nyxan", "scilz", "Dertixz", "Kaufee", "Gaslarga", "Gargix", "Nimmy Jeutron",
+    "Sexy Vegan", "XXXTentacion", "XXXTerminated", "Yharon", "XXXTinguished", "Sora", "3spooky5me", "Alcoholic Kitty",
+    "Allarus", "Arima", "Baltazoiro", "Bayru", " Brisingrvindr", "Captain Java", "D3SOLATION", "Darius", "Amy", "Arella",
+    "Diet Coke", "Bepsis", "el conke", "Erich Von Manstein", "Exodia", "Astaea", "Lindford", "Figueira", "foxburn",
+    "go commit helpfulness", "go commit tower jump", "go commit neck rope", 
 ];
    // var i;
     //i = 1;
