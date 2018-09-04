@@ -18,23 +18,7 @@ var addMoreButton= document.createElement("input");
 var namingMethod = 0;
 var namingMethods = ["Random name","Random Ending","Choose Name"];
 var namesExample= [
-    "hi daddy", "ur search history", "IceWallowCome", "Adolf_Hipster", "noggers are bad","Ben Dover", "Eileen Dover", 
-    "Sportacus", "Robbie Rotten", "Kim-Jong Uno", "Sernie Banders", "Brooke", "Haus Brooke", "Stoner_Army", "Aphrodite", 
-    "W33d Goddess", "Garuger", "Gesely", "Nayq", "Trotsky", "Lenin", "Stalin", "Featherz", "Kat", "Joseph Goebells", 
-    "Fascist Deli", "PAPA SNAKU", "Beaner", "Brit Jew", "Rotten_Sausage", "Ryki", "Svenar", "a disappointment", "Allarus", 
-    "Baguette Stalin", "Communist Penguin", "Kamibel", "Serena", "Random Celery", "some object", "StiffyKnight", "Thotslayer9000", 
-    "Jewslayer59", "W A N K E R", "Bush did 9/11", "Loli_Hunter", "Asthma.exe", "*Autistic Screech*", "100% Fascism", "2 inch punisher", 
-    "ChingChong.exe", "Adderall.exe", "Aether", "Aiden", "Akane", "Killer Memestar", "Allah Snackbar", "Suq Madiq",
-    "BAN ALL FURRIES", "TheJewSpanker9000", "Despacito", "Lolek", "Kubmeister", "Terminal_Vagabond", "XXXTentacion", 
-    "XXXTerminated", "xX_suicidal_Xx", "Drunk_Scalie", "A U T I S M", "actual dirt", "Tom", "George", "#George4Mod", 
-    "Thotimus Prime", "BBC", "Bluntblower69", "Bob Ross", "Brok3n", "El Conke", "Bepsis", "IGassedJuice", "Build The Wall", 
-    "Meincraft", "Elongated Muskrat", "Elon Musk", "Catto", "Doggo", "Pupper", "Communist Pubes", "Cupcakes4Jesus", 
-    "Covfefe", "Pickle Rick", "Bita Negar", "Poonsniffer", "Sphincter Troll", "Splooge Master", "Wank Receptacle",
-    "Jim Crow", "Bong Huffer", "Asian_Child_Labor", "Dr. Anus", "Creep", "Eggplant", "ErectionPerfection", "GeorgeTheJew", 
-    "Heinrich Himmler", "Keona", "Linux4Lyfe", "Mordekai", "Nigglet", "Alcohol Inhaler", "SpankBank", "Swiggster", 
-    "Reefer", "chrome big pp", "Melv", "Felch", "Rusty Tromboner", "Pole Smoker", "H3mp Goddess", "Swamp Donkey",
-    "Republicunt", "Rumpranger", "Inbreeder", "Peter Porker", "Boong", "Gook Monger", "Smalfuk", "Swive", "Punani",
-    "Snatch Sniffer", "Random Tart", "Crickey Chav", "Boang Woman", "Caramel Commie", "Kinky_Waman", "Nymphomaniac"     
+    "Mohxy", "Vxire", "Gahmuret", "Tara", "Tomi", "Argor", "Kelretu", "Polyzynn", "Tekrala", "Kesta"   
 ];
    // var i;
     //i = 1;
