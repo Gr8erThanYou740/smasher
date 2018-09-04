@@ -18,7 +18,8 @@ var addMoreButton= document.createElement("input");
 var namingMethod = 0;
 var namingMethods = ["Random name","Random Ending","Choose Name"];
 var namesExample= [
-    "Mohxy", "Vxire", "Gahmuret", "Tara", "Tomi", "Argor", "Kelretu", "Polyzynn", "Tekrala", "Kesta"   
+    "Mohxy", "Vxire", "Gahmuret", "Tara", "Tomi", "Argor", "Kelretu", "Polyzynn", "Tekrala", "Kesta", "Suelle",
+    "cuntlad", "BuyMyAids", "Wilihey", "Milkshook"
 ];
    // var i;
     //i = 1;
