@@ -30,7 +30,14 @@ var namesExample= [
     "Sexy Vegan", "XXXTentacion", "XXXTerminated", "Yharon", "XXXTinguished", "Sora", "3spooky5me", "Alcoholic Kitty",
     "Allarus", "Arima", "Baltazoiro", "Bayru", " Brisingrvindr", "Captain Java", "D3SOLATION", "Darius", "Amy", "Arella",
     "Diet Coke", "Bepsis", "el conke", "Erich Von Manstein", "Exodia", "Astaea", "Lindford", "Figueira", "foxburn",
-    "go commit helpfulness", "go commit tower jump", "go commit neck rope", 
+    "go commit helpfulness", "go commit tower jump", "go commit neck rope", "God", "Hypl3x", "Kaiser Wilhelm", "Kyrie",
+    "Lunaria", "Neutrix", "Trisha", "Dante", "Lucy", "Nostalgion", "jail-bait", "not jail-bait", "Octopuss", "1-inch wonder",
+    "2-inch punisher", "Jewslayer69", "Pussyslayer9000", "Jewspanker6000", "Phynox", "sadist", "Shireen Mazari", "shoot me",
+    "Shrok", "Spitzkopf Larry", "T H U N D E R T H I G H S", "Taint Painter", "printf('Goodbye, world/n');", "Microsoft Github",
+    "thotdog", "thotimus prime", "BuildTheWall", "Shrauger", "Beloxy", "Virgina", "cucker", "Loak", "Cancer.exe", "AIDS.DLL",
+    "please send help", "Yavin", "Mars", "Jupiter", "Savitar", "Pluto", "Heinrich Himmler", "Bastet", "Anubis", "ur mom big gay",
+    "hi welcome to chilis", "Xx_W33B_xX", "Uranus", "begone thot", "domesticated thot", "Puck Uranus", "Yuck Fou", "SilentMemer",
+    "Mr. Ethnic Cleansing", "Scheibe", "cyka blyat", 
 ];
    // var i;
     //i = 1;
