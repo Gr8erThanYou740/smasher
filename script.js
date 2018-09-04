@@ -21,7 +21,9 @@ var namesExample= [
     "Mohxy", "Vxire", "Gahmuret", "Tara", "Tomi", "Argor", "Kelretu", "Polyzynn", "Tekrala", "Kesta", "Suelle",
     "cuntlad", "BuyMyAids", "Wilihey", "Milkshook", "Kanker Luke", "SUCK YOUR MUM", "Acer", "ChRoMoSoMe CoLlEcToR",
     "Deep-fried Daddy", "Deli Tuna", "Jordane", "W33d Goddess", "H3mp Goddess", "Ben Dover", "Eileen Dover", 
-    "Suq Madiq", "Bita Negar", "Adolf_Hipster", "Fascist Deli", "Rusty Tromboner"
+    "Suq Madiq", "Bita Negar", "Adolf_Hipster", "Fascist Deli", "Rusty Tromboner", "ur search history", "actual dirt",
+    "Adolphin", "Tana", "noggers are bad", "IceWallowCome", "Akane", "Kareina", "IGassedJuice", "xDEFCONx", "Drazzle",
+    "cuckling", "Dirty Dan"
 ];
    // var i;
     //i = 1;
