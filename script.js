@@ -37,7 +37,15 @@ var namesExample= [
     "thotdog", "thotimus prime", "BuildTheWall", "Shrauger", "Beloxy", "Virgina", "cucker", "Loak", "Cancer.exe", "AIDS.DLL",
     "please send help", "Yavin", "Mars", "Jupiter", "Savitar", "Pluto", "Heinrich Himmler", "Bastet", "Anubis", "ur mom big gay",
     "hi welcome to chilis", "Xx_W33B_xX", "Uranus", "begone thot", "domesticated thot", "Puck Uranus", "Yuck Fou", "SilentMemer",
-    "Mr. Ethnic Cleansing", "Scheibe", "cyka blyat", 
+    "Mr. Ethnic Cleansing", "Scheibe", "cyka blyat", "Der Mist", "Geh Zum Teufel", "Arschloch", "Arschgeige", "Dummkopf",
+    "Wifebeater9000", "Karl Marx", "Puto", "Mierda", "clapping gorilla cheeks", "Veegee", "Arason", "Furfag", "show bob and vegene",
+    "Zoey", "Joey", "Cyrus", "Cynthia", "Meme Queen", "Robby Rotten", "Sportacus", "Alfred", "Serena", "Tristan", "Andy",
+    "Billy Beta", "Zenny", "hi daddy", "Kim-Jung Uno", "Aphrodite", "PAPA SNAKU", "100% Fascism", "Linux4Lyfe", "chrome big pp",
+    "Brok3n", "AUTISM", "Cupcakes4Jesus", "Peter Porker", "Boang Woman", "Republicunt", "DemocRAT", "Adderall.exe", "some object",
+    "Pole Smoker", "Swamp Donkey", "*Autistic Screech*", "Bong Huffer", "BAN ALL FURRIES", "Reefer", "SpankBank", "Swiggster",
+    "Punani", "Swive", "Felch", "W A N K E R", " Sernie Banders", "Covfefe", "Pickle Rick", "xX_Suicidal_Xx", "Asthma.exe",
+    "Stiffy Knight", "Claire", "Rump Ranger", "Elon Musk", "Elongated Muskrat", "Jim Crow", "Nayq", "Mordekai", "Bruno",
+    "Gesely", "bush did 9/11", "Bob Ross", "Communist Pubes", "Faguette", "Brit Jew", "Trotsky", "Sir Comcision"
 ];
    // var i;
     //i = 1;
