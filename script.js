@@ -52,32 +52,30 @@ var namesExample= [
 
 addMoreButton.type = "button";
 addMoreButton.value = "Smash More!";
-addMoreButton.onmousedown=function (){addMoreKahoots();};
-//addMoreButton.class = "mainpage";
+addMoreButton.onmousedown = function(){
+    addMoreKahoots();
+};
 addMoreButton.style="margin-bottom:0.5%;margin-left:0.5%;width:99%;height:50px;position:fixed;display:block;bottom:0;background-color:#333;outline: 0;box-shadow: none;border: 1px solid #2e2e2e;color:white;font-family: montserrat,'helvetica neue',helvetica,arial,sans-serif;font-weight: 700;font-size:20px;";
-$("#GamePin").keyup(function (e) {
-    if (e.which == 13) {
+$("#GamePin").keyup(function(e){
+    if (e.which == 13){
         buttonClicked();
     }
- });
+});
 
-function randomCaps(baseName)
-{
-    var newName = "";
-    for(var i=0; i< baseName.length; i++)
-    {
-        if(Math.random()>0.5)
-        {
-            newName+=baseName[i];
+const randomCaps = function(baseName){
+    let newName = "";
+    for (let i = 0; i< baseName.length; i++){
+        if (Math.random() > 0.5){
+            newName += baseName[i];
         }
-        else
+        else 
         {
-            newName+=baseName[i];
+            newName += baseNsame[i];
         }
     }
     return newName;
 }
-
+    
 
 function generateRandomLetter(length)
 {
