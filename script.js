@@ -93,69 +93,48 @@ const generateName = function(mode){
             name = ($("#base").val().substr(0,11) +"." +generateRandomLetter(5)).substr(0,16);
             break;
         case 2: // Random Caps     
-            if ($("#base").val().length< 7)
-}
-
-function generateName(mode)
-{
-    var name="";
-    switch(mode)
-    {
-        case 0: // Random Name
-            name = randomCaps(namesExample[Math.floor(Math.random()*namesExample.length)]);
-            break;
-        case 1: // Random Ending
-            name = ($("#base").val().substr(0,11) +"." +generateRandomLetter(5)).substr(0,16);
-            break;
-        case 2: // Random Caps
-            if($("#base").val().length<7)
-            {
+            if ($("#base").val().length< 7){
                 name = randomCaps($("#base").val()) + "" +generateRandomLetter(0);
                 break;
             }
-            else
+            else 
             {
                 name = randomCaps($("#base").val());
                 break;
             }
         default:
             name = "Smasher"+generateRandomLetter(5);
-    }
+    }       
     return name;
 }
 
-function updateName()
-{
+const updateName = function(){
     $("#nameExample").html("Example: " + generateName(namingMethod));
-}
+}    
 
-function showExtension()
-{
+const showExtension = function(){
     $("#install").css("display", "block");
 }
-function hideExtension()
-{
+
+const hideExtension = function(){
     $("#install").css("display", "none");
 }
 
-function addMoreKahoots()
-{
+const addMoreKahoots = function(){
     document.body.removeChild(addMoreButton);
-    for(var i=0; i<5; i++)
-    {
-        var frame = document.createElement("iframe");
-        frame.src="http://www.kahoot.it";
+    for (let i = 0; i< 5; i++){
+        let frame = document.createElement("iframe");
+        frame.src = "http://www.kahoot.it";
         document.body.appendChild(frame);
     }
     document.body.appendChild(addMoreButton);
 }
 
-function showSettings()
-{
-    $("#settings").css("display", "block");
+const showSettings = function(){
+      $("#settings").css("display", "block");
 }
-function hideSettings()
-{
+
+const hideSettings = function(){
     numberOfKahoots = parseInt($("#numberOfKahoots").val());
     $("#settings").css("display", "none");
 }
