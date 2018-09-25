@@ -9,15 +9,15 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
 }
 else
 {
-var buildNumber =0;
-var isSmasherInstalled = false;
-var loadInline = true;
-var numberOfKahoots =20;
-var showCSS=false;
-var addMoreButton= document.createElement("input");
-var namingMethod = 0;
-var namingMethods = ["Random name","Random Ending","Choose Name"];
-var namesExample= [
+let buildNumber = 0;
+let isSmasherInstalled = false;
+let loadInline = true;
+let numberOfKahoots =20;
+let showCSS=false;
+let addMoreButton= document.createElement("input");
+let namingMethod = 0;
+let namingMethods = ["Random name","Random Ending","Choose Name"];
+let namesExample = [
     "Mohxy", "Vxire", "Gahmuret", "Tara", "Tomi", "Argor", "Kelretu", "Polyzynn", "Tekrala", "Kesta", "Suelle",
     "cuntlad", "BuyMyAids", "Wilihey", "Milkshook", "Kanker Luke", "SUCK YOUR MUM", "Acer", "ChRoMoSoMe CoLlEcToR",
     "Deep-fried Daddy", "Deli Tuna", "Jordane", "W33d Goddess", "H3mp Goddess", "Ben Dover", "Eileen Dover", 
@@ -47,8 +47,6 @@ var namesExample= [
     "Stiffy Knight", "Claire", "Rump Ranger", "Elon Musk", "Elongated Muskrat", "Jim Crow", "Nayq", "Mordekai", "Bruno",
     "Gesely", "bush did 9/11", "Bob Ross", "Communist Pubes", "Faguette", "Brit Jew", "Trotsky", "Sir Comcision"
 ];
-   // var i;
-    //i = 1;
 
 addMoreButton.type = "button";
 addMoreButton.value = "Smash More!";
@@ -75,17 +73,27 @@ const randomCaps = function(baseName){
     }
     return newName;
 }
-    
 
-function generateRandomLetter(length)
-{
-    var randomLetters = "";
-    var letters= "qwertyuiopasdfghjklzxcvbnm1234567890";
-    for(var i=0; i<length; i++)
-    {
+const generateRandomLetter = function(length){
+    let randomLetters = "";
+    let letters = "qwertyuiopasdfghjklzxcvbnm1234567890";
+    for (let i = 0; i< length; i++){
         randomLetters += letters[Math.floor(Math.random()*letters.length)];
     }
     return randomLetters;
+}
+    
+const generateName = function(mode){
+    let name = "";
+    switch(mode){
+        case 0: // Random Name 
+            name = randomCaps(namesExample[Math.floor(Math.random()*namesExample.length)]);
+            break;
+        case 1: // Random Ending    
+            name = ($("#base").val().substr(0,11) +"." +generateRandomLetter(5)).substr(0,16);
+            break;
+        case 2: // Random Caps     
+            if ($("#base").val().length< 7)
 }
 
 function generateName(mode)
