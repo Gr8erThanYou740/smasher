@@ -228,7 +228,10 @@ const buttonClicked = function(){
     }
 }
 
-// To whoever decided the previous setup was acceptable, do you even syntax?
+// If you like unassigned functions and you know it slit your wrists! *Clap* *Clap*
+// Whoever wrote the last setup, do you even syntax? 
+// RIP 1 hour of my free-time
+
 
 $(document).ready(function(){
     const Update = function(Input){
