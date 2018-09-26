@@ -9,15 +9,15 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
 }
 else
 {
-let buildNumber = 0;
-let isSmasherInstalled = false;
-let loadInline = true;
+let buildNumber = 0; // Pretty sure this can be changed to const
+let isSmasherInstalled = false; // Pretty sure this can be changed to const
+let loadInline = true; 
 let numberOfKahoots =20;
 let showCSS=false;
 let addMoreButton= document.createElement("input");
 let namingMethod = 0;
 let namingMethods = ["Random name","Random Ending","Choose Name"];
-let namesExample = [
+let namesExample = [ // Pretty sure this can be changed to const
     "Mohxy", "Vxire", "Gahmuret", "Tara", "Tomi", "Argor", "Kelretu", "Polyzynn", "Tekrala", "Kesta", "Suelle",
     "cuntlad", "BuyMyAids", "Wilihey", "Milkshook", "Kanker Luke", "SUCK YOUR MUM", "Acer", "ChRoMoSoMe CoLlEcToR",
     "Deep-fried Daddy", "Deli Tuna", "Jordane", "W33d Goddess", "H3mp Goddess", "Ben Dover", "Eileen Dover", 
