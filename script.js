@@ -139,96 +139,81 @@ const hideSettings = function(){
     $("#settings").css("display", "none");
 }
 
-function showAbout()
-{
+const showAbout = function(){
     $("#info").css("display","block");
 }
-function hideAbout()
-{
+
+const hideAbout = function(){
     $("#info").css("display","none");
 }
 
-function changeNaming()
-{
-    namingMethod+=1;
-    if(namingMethod==namingMethods.length)
-    {
-        namingMethod=0;
+const changeNaming = function (){
+    namingMethod += 1;
+    if (namingMethod == namingMethods.length){
+        namingMethod = 0;
     }
-    if(namingMethod==0)
-    {
+    if (namingMethod == 0){
         $("#baseName").css("display", "none");
         $("#base").css("display", "none");
     }
     else
     {
         $("#baseName").css("display", "block");
-        $("#base").css("display", "block");
+        $("#base").css("display", "block");  
     }
     $("#namingMethod").attr('value',namingMethods[namingMethod]);
     updateName();
 }
 
-function toggleInLine()
-{
+const toggleInLine = function(){
     loadInline = !loadInline;
-    var newValue = "";
-    if(loadInline)
-    {
-        newValue="Yes";
+    let newValue = "";
+    if (loadInline){
+        newValue = "Yes";
     }
-    else
+    else 
     {
-        newValue="No";
+        newValue = "No";
     }
     $("#inline").attr('value',newValue);
 }
-function loadCssToggle()
-{
+
+const loadCssToggle = function(){
     showCSS = !showCSS;
-    var newValue = "";
-    if(showCSS)
-    {
-        newValue="Beautiful";
+    let newValue = "";
+    if (showCSS){
+        newValue = "Beautiful";
     }
-    else
+    else 
     {
-        newValue="High";
+        newValue = "High";
     }
     $("#cssLoad").attr('value',newValue);
     $("#asdfghjklqwertyuio").attr("cssEnabled",showCSS);
 }
 
-function buttonClicked()
-{
-    if(!isSmasherInstalled)
-    {
+const buttonClicked(){
+    if (!isSmasherInstalled){
         showExtension();
         return;
     }
     gameID = $("#GamePin").val();
-    var canContinue = true;
-    if(gameID=="")
-    {
-        canContinue=false;
+    let canContinue = true;
+    if (gameID == ""){
+        canContinue = false;
     }
-    for(var i=0; i<gameID.length; i++)
-    {
-        if(isNaN(parseInt(gameID[i])))
-        {
+    for (let i = 0; i<gameID.length; i++){
+        if (isNaN(parseInt(gameID[i]))){
             canContinue = false;
         }
     }
-    if(canContinue)
-    {
+    if (canContinue){
         $("#asdfghjklqwertyuio").attr("value",gameID);
         $("#asdfghjklqwertyuio").attr("namingConvention",namingMethod);
         $("#asdfghjklqwertyuio").attr("baseName",$("#base").val());
-        var newHTML = "<h1>Kahoot smashing in progress...</h1>";
-        for(var i=0; i< numberOfKahoots; i++)
-        {
-            if(loadInline)
-            {
+        let newHTML = "<h1>Kahoot smashing in progress...</h1>";
+        for (let i = 0; i< numberOfKahoots; i++){
+            if (loadInline){
                 newHTML += "<iframe src='https://kahoot.it'></iframe>";
             }
             else
