@@ -228,6 +228,8 @@ const buttonClicked = function(){
     }
 }
 
+// To whoever decided the previous setup was acceptable, do you even syntax?
+
 $(document).ready(function(){
     const Update = function(Input){
         updateName();
