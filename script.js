@@ -192,7 +192,7 @@ const loadCssToggle = function(){
     $("#asdfghjklqwertyuio").attr("cssEnabled",showCSS);
 }
 
-const buttonClicked(){
+const buttonClicked = function(){
     if (!isSmasherInstalled){
         showExtension();
         return;
@@ -227,13 +227,15 @@ const buttonClicked(){
         document.body.appendChild(addMoreButton);
     }
 }
-$(document).ready(function(){setTimeout(function(){
-    updateName();
-    $('#GamePin').on('keyup', function (e) {
-    if (e.keyCode == 13) {
-        buttonClicked();
-    }
-});
-},500);})
 
-}
+$(document).ready(function(){
+    const Update = function(Input){
+        updateName();
+        $('GamePin').on('keyup', function(e){
+            if (Input.keyCode == 13){
+                buttonClicked();
+            }        
+        })
+    }
+    setTimeout(Update(), 500);
+})
